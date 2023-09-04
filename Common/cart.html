@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="cart-container">
+        <div class="cart-items">
+            <!-- Cart Items Grid -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img.lovepik.com/free-png/20210918/lovepik-shopping-cart-png-image_400246975_wh1200.png" alt="cart image">
+                </div>
+                <div class="item-details">
+                    <h2>Item in cart</h2>
+                    <hr>
+                    <p>Price: 100.00</p>
+                   
+                </div>
+                <div class="item-quantity">
+                    <button class="quantity-button">-</button>
+                    <input type="number" class="quantity-input" value="1">
+                    <button class="quantity-button">+</button>
+                </div>
+                <button class="delete-button">
+                    <i class="fas fa-trash-alt"></i>
+                </button>                    
+            </div>
+
+            <!-- Add more items here -->
+
+        </div>
+
+        <div class="cart-summary">
+            <div class="summary-card">
+                <div class="card-header">Summary</div>
+                <hr>
+                <div class="product-price">
+                    Cost: 10.00
+                </div>
+                <div class="shipping">
+                    Shipping: 5.00
+                </div>
+                <hr style="width: 250px; margin-left: 60px;">
+                <div class="total-cost">
+                    Total Cost: 15.00
+                </div>
+                <button class="checkout-button">Checkout</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
